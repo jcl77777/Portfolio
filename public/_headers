@@ -1,0 +1,17 @@
+# Cloudflare Pages 自定義 Headers
+# 安全性和性能優化
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# 靜態資源緩存
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML 文件不緩存（開發時）
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+

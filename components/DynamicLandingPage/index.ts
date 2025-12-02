@@ -1,0 +1,5 @@
+export { DynamicHero } from './DynamicHero'
+export { DynamicProblems } from './DynamicProblems'
+export { DynamicSolutions } from './DynamicSolutions'
+export { DynamicHowItWorks } from './DynamicHowItWorks'
+export { DynamicFAQ } from './DynamicFAQ'
