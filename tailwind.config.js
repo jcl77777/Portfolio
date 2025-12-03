@@ -29,6 +29,11 @@ module.exports = {
           'warning': '#FF9400',
           'error': '#FF3B30',
         },
+        // Sparks yellow/orange (for product pages only)
+        sparks: {
+          'yellow': '#FACC15',
+          'orange': '#F97316',
+        },
       },
       fontFamily: {
         'rounded': [
@@ -51,6 +56,7 @@ module.exports = {
       backgroundImage: {
         'seafoam-gradient': 'linear-gradient(135deg, #9DC4B1 0%, #81B29A 100%)',
         'certo-gradient': 'linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)',
+        'sparks-gradient': 'linear-gradient(135deg, #FACC15 0%, #F97316 100%)',
       },
     },
   },

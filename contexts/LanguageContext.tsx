@@ -24,19 +24,23 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [locale, setLocaleState] = useState<Locale>(() => {
-    // Get saved language from localStorage or default to browser language
+  // Always start with 'en' on both server and client to avoid hydration mismatch
+  const [locale, setLocaleState] = useState<Locale>('en')
+
+  // Load saved language from localStorage after component mounts (client-side only)
+  useEffect(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('certo-locale') as Locale | null
       if (saved && (saved === 'zh-TW' || saved === 'en')) {
-        return saved
+        setLocaleState(saved)
+      } else {
+        // Detect browser language
+        const browserLang = navigator.language || 'en'
+        const detectedLocale = browserLang.startsWith('zh') ? 'zh-TW' : 'en'
+        setLocaleState(detectedLocale)
       }
-      // Detect browser language
-      const browserLang = navigator.language || 'en'
-      return browserLang.startsWith('zh') ? 'zh-TW' : 'en'
     }
-    return 'en'
-  })
+  }, [])
 
   const setLocale = (newLocale: Locale) => {
     setLocaleState(newLocale)

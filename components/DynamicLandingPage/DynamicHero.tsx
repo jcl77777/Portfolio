@@ -5,10 +5,16 @@ import { CertoWordmark } from '../Logo'
 
 interface Props {
   data: HeroSection
+  productId?: string
 }
 
-export const DynamicHero: React.FC<Props> = ({ data }) => {
+export const DynamicHero: React.FC<Props> = ({ data, productId }) => {
   const { locale } = useLanguage()
+  
+  // Determine color scheme based on product
+  const isSparks = productId === 'sparks'
+  const primaryColorClass = isSparks ? 'text-sparks-orange' : 'text-certo-purple-dark'
+  const primaryColorHover = isSparks ? 'hover:text-sparks-yellow' : ''
 
   return (
     <section className={`min-h-screen flex items-center justify-center ${data.backgroundGradient || 'bg-gray-900'} px-4 py-20`}>
@@ -51,7 +57,7 @@ export const DynamicHero: React.FC<Props> = ({ data }) => {
             href={data.ctaPrimary.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white text-certo-purple-dark px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform shadow-lg font-rounded tracking-tight"
+            className={`bg-white ${primaryColorClass} ${primaryColorHover} px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform shadow-lg font-rounded tracking-tight`}
           >
             {data.ctaPrimary.text[locale]}
           </a>

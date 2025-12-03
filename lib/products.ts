@@ -36,6 +36,7 @@ export interface Product {
 }
 
 import { certoLandingPage } from './productData/certo'
+import { sparksLandingPage } from './productData/sparks'
 
 export const products: Product[] = [
   {
@@ -59,6 +60,29 @@ export const products: Product[] = [
     tags: ['iOS', 'Productivity', 'Finance'],
     featured: true,
     landingPage: certoLandingPage, // Connect Certo landing page data
+  },
+  {
+    id: 'sparks',
+    name: {
+      'zh-TW': 'Sparks',
+      'en': 'Sparks',
+    },
+    tagline: {
+      'zh-TW': '捕捉每一个灵感瞬间',
+      'en': 'Capture Every Spark of Inspiration',
+    },
+    description: {
+      'zh-TW': '快速捕捉、整理并行动。无论是文字、图片、链接还是视频，让每个灵感都成为可能。',
+      'en': 'Quickly capture, organize, and act on your inspirations. Whether it\'s text, images, links, or videos, turn every spark into possibility.',
+    },
+    image: '/images/sparks-icon.png',
+    links: {
+      appStore: 'https://apps.apple.com/app/sparks', // 需要更新为实际 App Store 链接
+    },
+    tags: ['iOS', 'Productivity', 'Inspiration'],
+    featured: true,
+    comingSoon: false,
+    landingPage: sparksLandingPage,
   },
   {
     id: 'example-coming-soon',

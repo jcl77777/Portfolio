@@ -56,14 +56,14 @@ export default function ProductLandingPage({ product }: Props) {
       </Head>
 
       <main>
-        <DynamicHero data={landingPage.hero} />
-        {landingPage.problems && <DynamicProblems data={landingPage.problems} />}
-        {landingPage.solutions && <DynamicSolutions data={landingPage.solutions} />}
-        {landingPage.howItWorks && <DynamicHowItWorks data={landingPage.howItWorks} />}
-        {landingPage.faq && <DynamicFAQ data={landingPage.faq} />}
+        <DynamicHero data={landingPage.hero} productId={product.id} />
+        {landingPage.problems && <DynamicProblems data={landingPage.problems} productId={product.id} />}
+        {landingPage.solutions && <DynamicSolutions data={landingPage.solutions} productId={product.id} />}
+        {landingPage.howItWorks && <DynamicHowItWorks data={landingPage.howItWorks} productId={product.id} />}
+        {landingPage.faq && <DynamicFAQ data={landingPage.faq} productId={product.id} />}
       </main>
 
-      <Footer />
+      <Footer productId={product.id} />
     </>
   )
 }
