@@ -68,12 +68,12 @@ export const products: Product[] = [
       'en': 'Sparks',
     },
     tagline: {
-      'zh-TW': '捕捉每一个灵感瞬间',
+      'zh-TW': '捕捉每一個靈感火花',
       'en': 'Capture Every Spark of Inspiration',
     },
     description: {
-      'zh-TW': '快速捕捉、整理并行动。无论是文字、图片、链接还是视频，让每个灵感都成为可能。',
-      'en': 'Quickly capture, organize, and act on your inspirations. Whether it\'s text, images, links, or videos, turn every spark into possibility.',
+      'zh-TW': '別再讓絕妙點子溜走。Sparks 幫你捕捉、整理並實踐任何形式的靈感——文字、圖片、連結或影片。將稍縱即逝的想法，轉化為持久的影響力。',
+      'en': 'Never lose a brilliant idea again. Sparks helps you capture, organize, and act on inspiration in any form—text, images, links, or videos. Turn fleeting thoughts into lasting impact.',
     },
     image: '/images/sparks-icon.png',
     links: {
