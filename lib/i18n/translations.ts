@@ -10,7 +10,7 @@ export const translations = {
       feature1: '付款日前 7 天提前提醒',
       feature2: '完整的付款歷史追蹤',
       feature3: '資料完全本地儲存，保護隱私',
-      feature4: 'Premium：家庭成員管理與成本分攤',
+      feature4: '家庭成員管理與成本分攤',
       ctaPrimary: '立即下載',
       ctaSecondary: '了解更多',
     },
@@ -25,12 +25,12 @@ export const translations = {
       problem2: {
         icon: '📊',
         title: '財務狀況霧煞煞',
-        description: '多張卡片、不同日期、重複扣款——完全不知道錢都花到哪裡去了。',
+        description: '多張卡片、不同日期、重複扣款。完全不知道錢都花到哪裡去了。',
       },
       problem3: {
         icon: '👁️',
         title: '錢包默默在失血',
-        description: '看不清楚固定支出，錢就這樣慢慢流走——你的預算早就知道了。',
+        description: '看不清楚固定支出，錢就這樣慢慢流走。',
       },
     },
     // Solutions Section
@@ -44,7 +44,7 @@ export const translations = {
           '到期日當天通知',
           '逾期後持續提醒',
         ],
-        highlight: '不再措手不及——按照你的節奏付款',
+        highlight: '不再措手不及，完全按照你的節奏付款',
       },
       solution2: {
         icon: '📝',
@@ -84,7 +84,7 @@ export const translations = {
           '公平分攤成本',
           '查看每位成員的訂閱成本，優化家庭支出',
         ],
-        highlight: '公平分攤，家庭和樂——不用搞 Excel',
+        highlight: '公平分攤，家庭和樂。再也不用搞 Excel',
       },
     },
     // How It Works
@@ -98,11 +98,11 @@ export const translations = {
       step2: {
         icon: '🔔',
         title: '坐下來放輕鬆',
-        description: '提前 7 天通知、到期日提醒、就算錯過也會通知——讓你永遠掌控一切。',
+        description: '提前 7 天通知、到期日提醒、就算錯過也會通知，讓你永遠掌控一切。',
       },
       step3: {
         icon: '✅',
-        title: '標記已付——搞定',
+        title: '標記已付一鍵搞定',
         description: '一鍵確認付款。Certo 會處理其他事，自動算出下次付款日期。',
       },
     },

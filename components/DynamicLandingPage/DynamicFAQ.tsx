@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FAQSection } from '../../lib/types/productLandingPage'
 import { useLanguage } from '../../contexts/LanguageContext'
+import { getProductTheme } from '../../lib/productTheme'
 
 interface Props {
   data: FAQSection
@@ -10,11 +11,9 @@ interface Props {
 export const DynamicFAQ: React.FC<Props> = ({ data, productId }) => {
   const { locale } = useLanguage()
   const [openIndex, setOpenIndex] = useState<number | null>(null)
-  
-  // Determine color scheme based on product
-  const isSparks = productId === 'sparks'
-  const borderHoverClass = isSparks ? 'hover:border-sparks-orange dark:hover:border-sparks-yellow' : 'hover:border-purple-500 dark:hover:border-purple-400'
-  const accentColorClass = isSparks ? 'text-sparks-orange dark:text-sparks-yellow' : 'text-purple-600 dark:text-purple-400'
+  const theme = getProductTheme(productId)
+  const borderHoverClass = theme.borderHover
+  const accentColorClass = theme.accent
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index)

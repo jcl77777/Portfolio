@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useLanguage } from '../contexts/LanguageContext'
 import { products, Product } from '../lib/products'
+import { getProductTheme } from '../lib/productTheme'
 
 interface FooterProps {
   productId?: string
@@ -10,21 +11,20 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ productId }) => {
   const { locale, t } = useLanguage()
   const currentYear = new Date().getFullYear()
-  
+
   // Get product info if productId is provided
-  const product: Product | undefined = productId 
+  const product: Product | undefined = productId
     ? products.find(p => p.id === productId)
     : undefined
 
-  // Determine colors and content based on product
-  const isSparks = productId === 'sparks'
-  const gradientClass = isSparks ? 'bg-sparks-gradient' : 'bg-certo-gradient'
-  
+  // Get theme for gradient
+  const theme = getProductTheme(productId)
+
   // Get App Store link
   const appStoreLink = product?.links?.appStore || 'https://apps.apple.com/developer/nannova-labs'
-  
+
   // Universal vision for NanNova Labs
-  const vision = locale === 'zh-TW' 
+  const vision = locale === 'zh-TW'
     ? '專注於創造實用且順眼的產品，解決我們生活中遇到的問題。'
     : 'Focused on creating practical and beautiful products that solve real problems'
 
@@ -90,7 +90,7 @@ export const Footer: React.FC<FooterProps> = ({ productId }) => {
                 href={appStoreLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`inline-block ${gradientClass} text-white px-6 py-3 rounded-lg font-bold hover:scale-105 transition-transform font-rounded tracking-tight`}
+                className={`inline-block ${theme.gradient} text-white px-6 py-3 rounded-lg font-bold hover:scale-105 transition-transform font-rounded tracking-tight`}
               >
                 {locale === 'zh-TW' ? '立即下載' : 'Download Now'}
               </a>

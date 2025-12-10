@@ -4,9 +4,10 @@ import { useLanguage } from '../../contexts/LanguageContext'
 
 interface Props {
   data: ProblemsSection
+  productId?: string
 }
 
-export const DynamicProblems: React.FC<Props> = ({ data }) => {
+export const DynamicProblems: React.FC<Props> = ({ data, productId }) => {
   const { locale } = useLanguage()
 
   return (

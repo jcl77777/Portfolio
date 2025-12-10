@@ -5,6 +5,11 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'bg-certo-gradient',
+    'bg-sparks-gradient',
+    'bg-custo-gradient',
+  ],
   theme: {
     extend: {
       colors: {
@@ -34,6 +39,12 @@ module.exports = {
           'yellow': '#FACC15',
           'orange': '#F97316',
         },
+        // Custo blue (for product pages only)
+        custo: {
+          'blue': '#1E7FF0',
+          'blue-light': '#4A8FE3',
+          'blue-dark': '#3873C7',
+        },
       },
       fontFamily: {
         'rounded': [
@@ -57,6 +68,7 @@ module.exports = {
         'seafoam-gradient': 'linear-gradient(135deg, #9DC4B1 0%, #81B29A 100%)',
         'certo-gradient': 'linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)',
         'sparks-gradient': 'linear-gradient(135deg, #FACC15 0%, #F97316 100%)',
+        'custo-gradient': 'linear-gradient(135deg, #4A8FE3 0%, #1E7FF0 100%)',
       },
     },
   },

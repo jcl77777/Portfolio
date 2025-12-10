@@ -37,6 +37,7 @@ export interface Product {
 
 import { certoLandingPage } from './productData/certo'
 import { sparksLandingPage } from './productData/sparks'
+import { custoLandingPage } from './productData/custo'
 
 export const products: Product[] = [
   {
@@ -83,6 +84,28 @@ export const products: Product[] = [
     featured: true,
     comingSoon: false,
     landingPage: sparksLandingPage,
+  },
+  {
+    id: 'custo',
+    name: {
+      'zh-TW': 'Custo',
+      'en': 'Custo',
+    },
+    tagline: {
+      'zh-TW': '你的密碼，由你守護',
+      'en': 'Your Passwords, Protected',
+    },
+    description: {
+      'zh-TW': '一款注重隱私的密碼管理工具，所有資料都儲存在你的裝置上。生物辨識解鎖、密碼強度分析、健康檢查儀表板。',
+      'en': 'A privacy-first password manager that keeps everything on your device. Biometric unlock, password strength analysis, and a health dashboard.',
+    },
+    image: '/images/custo-icon.png',
+    links: {
+      appStore: 'https://apps.apple.com/app/custo',
+    },
+    tags: ['iOS', 'Security', 'Productivity'],
+    featured: true,
+    landingPage: custoLandingPage,
   },
   {
     id: 'example-coming-soon',

@@ -1,6 +1,7 @@
 import React from 'react'
 import { SolutionsSection } from '../../lib/types/productLandingPage'
 import { useLanguage } from '../../contexts/LanguageContext'
+import { getProductTheme } from '../../lib/productTheme'
 
 interface Props {
   data: SolutionsSection
@@ -9,11 +10,9 @@ interface Props {
 
 export const DynamicSolutions: React.FC<Props> = ({ data, productId }) => {
   const { locale } = useLanguage()
-  
-  // Determine color scheme based on product
-  const isSparks = productId === 'sparks'
-  const borderHoverClass = isSparks ? 'hover:border-sparks-orange dark:hover:border-sparks-yellow' : 'hover:border-purple-500 dark:hover:border-purple-400'
-  const accentColorClass = isSparks ? 'text-sparks-orange dark:text-sparks-yellow' : 'text-purple-600 dark:text-purple-400'
+  const theme = getProductTheme(productId)
+  const borderHoverClass = theme.borderHover
+  const accentColorClass = theme.accent
 
   return (
     <section id="features" className="py-20 px-4 bg-white dark:bg-gray-900">

@@ -15,15 +15,15 @@ export const sparksLandingPage: ProductLandingPage = {
       'en': '',
     },
     description: {
-      'zh-TW': '別再讓絕妙點子溜走。Sparks 幫你捕捉、整理並實踐任何形式的靈感——文字、圖片、連結或影片。將稍縱即逝的想法，轉化為持久的影響力。',
-      'en': 'Never lose a brilliant idea again. Sparks helps you capture, organize, and act on inspiration in any form—text, images, links, or videos. Turn fleeting thoughts into lasting impact.',
+      'zh-TW': '別再讓絕妙點子溜走。Sparks 幫你捕捉、整理並實踐任何形式的靈感：文字、圖片、連結或影片。將稍縱即逝的想法，轉化為持久的影響力。',
+      'en': 'Never lose a brilliant idea again. Sparks helps you capture, organize, and act on inspiration in any form: text, images, links, or videos. Turn fleeting thoughts into lasting impact.',
     },
     features: [
       {
         icon: '✨',
         text: {
-          'zh-TW': '捕捉任何形式——文字、圖片、網址和影片',
-          'en': 'Capture anything—text, images, URLs, and videos',
+          'zh-TW': '捕捉任何形式：文字、圖片、網址和影片',
+          'en': 'Capture anything: text, images, URLs, and videos',
         },
       },
       {
@@ -85,8 +85,8 @@ export const sparksLandingPage: ProductLandingPage = {
           'en': 'Great Ideas Strike at the Worst Times',
         },
         description: {
-          'zh-TW': '早晨散步時、睡前、開會中——絕妙的想法突然冒出來，然後又迅速消失。',
-          'en': 'On your morning walk, right before sleep, in the middle of a meeting—brilliant ideas appear out of nowhere, then vanish just as quickly.',
+          'zh-TW': '早晨散步時、睡前、開會中。絕妙的想法突然冒出來，然後又迅速消失。',
+          'en': 'On your morning walk, right before sleep, in the middle of a meeting. Brilliant ideas appear out of nowhere, then vanish just as quickly.',
         },
       },
       {
@@ -136,8 +136,8 @@ export const sparksLandingPage: ProductLandingPage = {
             'en': 'Clean, distraction-free interface',
           },
           {
-            'zh-TW': '一鍵——搞定',
-            'en': 'One tap—done',
+            'zh-TW': '一鍵搞定',
+            'en': 'One tap and it\'s done',
           },
         ],
         highlight: {
@@ -212,7 +212,7 @@ export const sparksLandingPage: ProductLandingPage = {
           },
           {
             'zh-TW': '你完全擁有自己的創意作品',
-            'en': 'You own your creative work—completely',
+            'en': 'You own your creative work completely',
           },
         ],
         highlight: {
@@ -310,8 +310,8 @@ export const sparksLandingPage: ProductLandingPage = {
           'en': 'Is there a free version?',
         },
         answer: {
-          'zh-TW': '有！免費版本包含無限靈感、5 個標籤和 1 個收藏夾——非常適合入門。Premium 解鎖無限標籤、收藏夾和進階搜尋功能，只要 $39.99（終身買斷，一次性付費）。',
-          'en': 'Yes! The free version includes unlimited inspirations, 5 tags, and 1 collection—perfect for getting started. Premium unlocks unlimited tags, collections, and advanced search for $39.99 (lifetime, one-time payment).',
+          'zh-TW': '有！免費版本包含無限靈感、5 個標籤和 1 個收藏夾。非常適合入門。Premium 解鎖無限標籤、收藏夾和進階搜尋功能，只要 $39.99（終身買斷，一次性付費）。',
+          'en': 'Yes! The free version includes unlimited inspirations, 5 tags, and 1 collection. Perfect for getting started. Premium unlocks unlimited tags, collections, and advanced search for $39.99 (lifetime, one-time payment).',
         },
       },
       {
@@ -320,8 +320,8 @@ export const sparksLandingPage: ProductLandingPage = {
           'en': 'How much is Premium?',
         },
         answer: {
-          'zh-TW': '只要 $39.99——一次付清，永久擁有。沒有訂閱制、沒有重複費用。付一次錢，終身保有所有進階功能。',
-          'en': 'Just $39.99—one time, forever. No subscriptions, no recurring charges. Pay once, keep all premium features for life.',
+          'zh-TW': '只要 $39.99！一次付清，永久擁有。沒有訂閱制、沒有重複費用。付一次錢，終身保有所有進階功能。',
+          'en': 'Just $39.99! Paid once, accessforever. No subscriptions, no recurring charges. Pay once, keep all premium features for life.',
         },
       },
       {
@@ -330,8 +330,8 @@ export const sparksLandingPage: ProductLandingPage = {
           'en': 'Can I sync between my iPhone and iPad?',
         },
         answer: {
-          'zh-TW': '目前還不行——Sparks 目前將所有內容儲存在各裝置的本地端。iCloud 同步功能已在我們的規劃中，即將推出！',
-          'en': 'Not yet—Sparks currently stores everything locally on each device. iCloud sync is on our roadmap and coming soon!',
+          'zh-TW': '目前還不行。Sparks 目前將所有內容儲存在各裝置的本地端。iCloud 同步功能已在我們的規劃中，即將推出！',
+          'en': 'Not yet. Sparks currently stores everything locally on each device. iCloud sync is on our roadmap and coming soon!',
         },
       },
     ],
@@ -343,16 +343,16 @@ export const sparksLandingPage: ProductLandingPage = {
       'en': 'Sparks - Capture Every Spark of Inspiration',
     },
     description: {
-      'zh-TW': '別再讓絕妙點子溜走。Sparks 是一款簡單、私密的 iOS App，用於捕捉和整理靈感——文字、圖片、連結和影片。在 iOS 上免費下載。',
-      'en': 'Never lose a great idea again. Sparks is a simple, private iOS app for capturing and organizing inspiration—text, images, links, and videos. Download free on iOS.',
+      'zh-TW': '別再讓絕妙點子溜走。Sparks 是一款簡單、私密的 iOS App，用於捕捉和整理靈感：文字、圖片、連結和影片。在 iOS 上免費下載。',
+      'en': 'Never lose a great idea again. Sparks is a simple, private iOS app for capturing and organizing inspiration: text, images, links, and videos. Download free on iOS.',
     },
     ogTitle: {
       'zh-TW': 'Sparks - 捕捉每一個靈感火花',
       'en': 'Sparks - Capture Every Spark of Inspiration',
     },
     ogDescription: {
-      'zh-TW': '捕捉、整理並實踐你最好的點子。無論是筆記、照片、連結或影片——Sparks 讓你的靈感保持活力。',
-      'en': 'Capture, organize, and act on your best ideas. Whether it\'s a note, photo, link, or video—Sparks keeps your inspiration alive.',
+      'zh-TW': '捕捉、整理並實踐你最好的點子。無論是筆記、照片、連結或影片。Sparks 讓你的靈感保持活力。',
+      'en': 'Capture, organize, and act on your best ideas. Whether it\'s a note, photo, link, or video. Sparks keeps your inspiration alive.',
     },
     ogImage: 'https://nannovalabs.com/images/sparks-og-image.png',
   },
