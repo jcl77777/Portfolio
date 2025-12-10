@@ -17,7 +17,7 @@ export const certoLandingPage: ProductLandingPage = {
     },
     description: {
       'zh-TW': '用 Certo 掌控你的訂閱。追蹤付款、保護隱私、分攤費用。一個簡潔優雅的 App 搞定一切。',
-      'en': 'Take control of your subscriptions with Certo. Track payments, protect your privacy, and split costs—all from one beautifully simple app.',
+      'en': 'Take control of your subscriptions with Certo. Track payments, protect your privacy, and split costs. All from one beautifully simple app.',
     },
     features: [
       {
@@ -349,20 +349,20 @@ export const certoLandingPage: ProductLandingPage = {
 
   meta: {
     title: {
-      'zh-TW': 'Certo - 別再讓忘記的訂閱吃掉你的錢',
-      'en': 'Certo - Stop Losing Money to Forgotten Subscriptions',
+      'zh-TW': 'Certo: 別再讓忘記的訂閱吃掉你的錢',
+      'en': 'Certo: Stop Losing Money to Forgotten Subscriptions',
     },
     description: {
       'zh-TW': '別再讓忘記的訂閱吃掉你的錢。追蹤付款、保護隱私、分攤費用。一個簡潔優雅的 App 搞定一切。立即下載 Certo。',
       'en': 'Stop losing money to forgotten subscriptions. Track payments, protect your privacy, and split costs. All in one beautifully simple app. Download Certo today.',
     },
     ogTitle: {
-      'zh-TW': 'Certo - 別再讓忘記的訂閱吃掉你的錢',
-      'en': 'Certo - Stop Losing Money to Forgotten Subscriptions',
+      'zh-TW': 'Certo: 別再讓忘記的訂閱吃掉你的錢',
+      'en': 'Certo: Stop Losing Money to Forgotten Subscriptions',
     },
     ogDescription: {
       'zh-TW': '追蹤付款、保護隱私、分攤費用。一個簡潔優雅的 App 搞定一切。',
-      'en': 'Track payments, protect your privacy, and split costs. All from one beautifully simple app.',
+      'en': 'Track payments, protect privacy, and split costs. All from one beautifully simple app.',
     },
     ogImage: 'https://nannovalabs.com/og-image.png',
   },

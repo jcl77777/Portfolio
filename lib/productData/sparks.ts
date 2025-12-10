@@ -339,16 +339,16 @@ export const sparksLandingPage: ProductLandingPage = {
 
   meta: {
     title: {
-      'zh-TW': 'Sparks - 捕捉每一個靈感火花',
-      'en': 'Sparks - Capture Every Spark of Inspiration',
+      'zh-TW': 'Sparks: 捕捉每一個靈感火花',
+      'en': 'Sparks: Capture Every Spark of Inspiration',
     },
     description: {
       'zh-TW': '別再讓絕妙點子溜走。Sparks 是一款簡單、私密的 iOS App，用於捕捉和整理靈感：文字、圖片、連結和影片。在 iOS 上免費下載。',
       'en': 'Never lose a great idea again. Sparks is a simple, private iOS app for capturing and organizing inspiration: text, images, links, and videos. Download free on iOS.',
     },
     ogTitle: {
-      'zh-TW': 'Sparks - 捕捉每一個靈感火花',
-      'en': 'Sparks - Capture Every Spark of Inspiration',
+      'zh-TW': 'Sparks: 捕捉每一個靈感火花',
+      'en': 'Sparks: Capture Every Spark of Inspiration',
     },
     ogDescription: {
       'zh-TW': '捕捉、整理並實踐你最好的點子。無論是筆記、照片、連結或影片。Sparks 讓你的靈感保持活力。',

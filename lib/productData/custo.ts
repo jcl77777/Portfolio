@@ -15,8 +15,8 @@ export const custoLandingPage: ProductLandingPage = {
       'en': '',
     },
     description: {
-      'zh-TW': '一款注重隱私的密碼管理工具，所有資料都儲存在你的裝置上。生物辨識解鎖、密碼強度分析、健康檢查儀表板——讓你的每個帳號都安全無虞。',
-      'en': 'A privacy-first password manager that lives entirely on your device. Unlock with Face ID, analyze password strength, and track your security health—all without the cloud.',
+      'zh-TW': '注重隱私的密碼管理器，所有資料都儲存在你的裝置上。生物辨識解鎖、密碼強度分析、健康檢查儀表板。讓你的每個帳號都安全無虞。',
+      'en': 'A privacy-first password manager that lives entirely on your device. Unlock with Face ID, analyze password strength, and track your security health. All without the cloud.',
     },
     features: [
       {
@@ -86,7 +86,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         description: {
           'zh-TW': '每個網站都要不同密碼，結果要不是用同一組，就是忘記哪個配哪個。',
-          'en': 'Every site demands a unique password. So you end up reusing the same one everywhere—or playing a guessing game every time you log in.',
+          'en': 'Every site demands a unique password. So you end up reusing the same one everywhere or playing a guessing game every time you log in.',
         },
       },
       {
@@ -108,7 +108,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         description: {
           'zh-TW': '雲端密碼管理器很方便，但你的敏感資料也交給了別人。萬一他們被駭呢？',
-          'en': 'Cloud password managers are convenient—until they get breached. Your most sensitive data shouldn\'t live on someone else\'s servers.',
+          'en': 'Cloud password managers are convenient until they get breached. Your most sensitive data shouldn\'t live on someone else\'s servers.',
         },
       },
     ],
@@ -153,7 +153,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         features: [
           {
-            'zh-TW': '即時強度評分（強/中/弱）',
+            'zh-TW': '即時強度評分',
             'en': 'Instant strength ratings as you type',
           },
           {
@@ -237,7 +237,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         description: {
           'zh-TW': '健康儀表板隨時告訴你哪些密碼太弱、重複使用或太久沒更新。保持最佳狀態。',
-          'en': 'Your dashboard highlights weak, reused, or stale passwords—so you can fix them before they become a problem.',
+          'en': 'Your dashboard highlights weak, reused, or stale passwords, so you can fix them before they become a problem.',
         },
       },
     ],
@@ -256,7 +256,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         answer: {
           'zh-TW': '絕對不會！所有資料都加密儲存在你的裝置本地。沒有雲端伺服器，沒有第三方存取。你的密碼只屬於你。',
-          'en': 'Never. All your data is encrypted and stored right on your device. No cloud servers, no third-party access—your passwords stay with you.',
+          'en': 'Never. All your data is encrypted and stored right on your device. No cloud servers, no third-party access. Your passwords stay with you.',
         },
       },
       {
@@ -266,7 +266,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         answer: {
           'zh-TW': '如果你設定了生物辨識，可以用 Face ID 或 Touch ID 解鎖。如果只使用主密碼，由於我們不儲存你的密碼，將無法恢復。請務必記住你的主密碼。',
-          'en': 'If you\'ve enabled biometrics, Face ID or Touch ID will get you in. But if you only use a master password, there\'s no recovery option—we never store it. Make sure it\'s something you won\'t forget.',
+          'en': 'If you\'ve enabled biometrics, Face ID or Touch ID will get you in. But if you only use a master password, there\'s no recovery option. We never store it. Make sure it\'s something you won\'t forget.',
         },
       },
       {
@@ -296,7 +296,7 @@ export const custoLandingPage: ProductLandingPage = {
         },
         answer: {
           'zh-TW': '目前 Custo 專注於單一裝置的本地安全。iCloud 同步功能正在規劃中，敬請期待！',
-          'en': 'Right now, Custo keeps everything on a single device for maximum security. iCloud sync is on the roadmap—stay tuned!',
+          'en': 'Right now, Custo keeps everything on a single device for maximum security. iCloud sync is on the roadmap. Stay tuned!',
         },
       },
     ],
@@ -308,8 +308,8 @@ export const custoLandingPage: ProductLandingPage = {
       'en': 'Custo: Your Passwords, Protected',
     },
     description: {
-      'zh-TW': '一款注重隱私的密碼管理 App，所有資料都儲存在你的裝置上。生物辨識解鎖、密碼強度分析、健康檢查儀表板。在 iOS 上直接下載。',
-      'en': 'The password manager that never touches the cloud. Biometric unlock, strength analysis, and a health dashboard—all stored locally on your iPhone.',
+      'zh-TW': '注重隱私的密碼管理器，所有資料都儲存在你的裝置上。生物辨識解鎖、密碼強度分析、健康檢查儀表板。在 iOS 上直接下載。',
+      'en': 'The password manager that never touches the cloud. Biometric unlock, strength analysis, and a health dashboard. All stored locally on your iPhone.',
     },
     ogTitle: {
       'zh-TW': 'Custo 你的密碼，由你守護',
